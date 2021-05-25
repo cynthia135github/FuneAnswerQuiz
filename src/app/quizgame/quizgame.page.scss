@@ -1,0 +1,33 @@
+.btnstart {
+    // background-color: #f7faa0;
+    color: #9fc3b5;
+    // outline-width: 2px;
+    margin: auto;
+  
+    // margin-left: 20px;
+    display: block;
+    background-color:#f7faa0;
+    margin-top:10px;
+    border-radius:20px;
+    margin-bottom: 10px;
+  }
+  .alert-wrapper {
+    background: #ccfa83;
+  }
+  
+  /* Works - pass "my-custom-class" in cssClass to increase specificity */
+  .my-custom-class .alert-wrapper {
+    background-color: #ccfa83;
+  }
+  
+  .my-custom-class {
+    --background-color: #ccfa83;
+    
+  }
+  .card {
+    background-color:#ccfa83;
+  }
+
+  .kuning{
+    --ion-background-color: #f7faa0;
+  }

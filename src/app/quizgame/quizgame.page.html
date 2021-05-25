@@ -1,0 +1,63 @@
+<ion-header>
+  <ion-toolbar class="kuning">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Quiz</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="kuning">
+  <ion-grid>
+    <ion-row>
+      <ion-col size-sm="6">
+        <ion-card class="card" (click)="answer('gambar1')">
+          <ion-img src= "{{gambar1}}" style="width: 200px; height: 200px; margin: auto;"></ion-img>
+          <ion-buttons>
+            <ion-button  shape="round" fill="outline" class="btnstart">
+              <div class="textstart">
+                Ayam
+              </div>
+            </ion-button>
+          </ion-buttons>
+        </ion-card>
+      </ion-col>
+      <ion-col size-sm="6">
+        <ion-card class="card" (click)="answer('gambar2')">
+          <ion-img src="{{gambar2}}" style="width: 200px; height: 200px;margin: auto;"></ion-img>
+          <ion-buttons>
+            <ion-button  shape="round" fill="outline" class="btnstart">
+              <div class="textstart">
+                zebra
+              </div>
+            </ion-button>
+          </ion-buttons>
+        </ion-card>
+      </ion-col>
+      <ion-col size-sm="6">
+        <ion-card class="card" (click)="answer('gambar3')">
+          <ion-img src="{{gambar3}}" style="width: 200px; height: 200px;margin: auto;"></ion-img>
+          <ion-buttons>
+            <ion-button  shape="round" fill="outline" class="btnstart">
+              <div class="textstart">
+                Jerapah
+              </div>
+            </ion-button>
+          </ion-buttons>
+        </ion-card>
+      </ion-col>
+      <ion-col size-sm="6">
+        <ion-card class="card" (click)="answer('gambar4')">
+          <ion-img src="{{gambar4}}" style="width: 200px; height: 200px;margin: auto;"></ion-img>
+          <ion-buttons>
+            <ion-button  shape="round" fill="outline" class="btnstart">
+              <div class="textstart">
+                Gajah
+              </div>
+            </ion-button>
+          </ion-buttons>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
